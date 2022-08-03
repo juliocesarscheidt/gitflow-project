@@ -4,17 +4,19 @@
 
 [http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html](http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 
-## Commands
+> init
 
 ```bash
-
 git init
 
 git remote add origin https://github.com/juliocesarscheidt/gitflow-project.git
 
 git flow init
+```
 
-# feature
+> feature
+
+```bash
 # cria uma branch de feature a partir da develop
 git flow feature start feature-001
 
@@ -28,8 +30,11 @@ git flow feature publish feature-001
 
 # pull da branch feature
 git flow feature pull feature-001
+```
 
-# release
+> release
+
+```bash
 # cria uma branch de release a partir da develop
 git flow release start release-001
 
@@ -44,8 +49,11 @@ git flow release finish release-001
 
 # pull da branch release
 git flow release pull release-001
+```
 
-# hotfix
+> hotfix
+
+```bash
 # cria uma branch de hotfix a partir da master
 git flow hotfix start hotfix-001
 
