@@ -4,7 +4,7 @@
 
 [http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html](http://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 
-> Commands
+> init
 
 ```bash
 git init
@@ -30,6 +30,7 @@ git flow feature publish feature-001
 
 # pull da branch feature
 git flow feature pull feature-001
+```
 
 > release
 
